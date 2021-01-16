@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/asantony/react-bootstrap/precache-manifest.85f903dc61c73c1f75df8b7baf521de2.js"
+  "/react-bootstrap/precache-manifest.6069b207be146a569b1e68b2afd55e48.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/asantony/react-bootstrap/index.html", {
+workbox.routing.registerNavigationRoute("/react-bootstrap/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
